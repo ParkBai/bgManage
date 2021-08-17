@@ -1,0 +1,99 @@
+html,#app,body{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  min-width: 1024px;
+}
+
+.el-card.box-card{
+  margin-top: 15px;
+  background-color: rgb(202, 204, 203);
+  box-shadow: 0 1px 1px rgb(228, 226, 245) !important;
+}
+
+.el-table{
+  margin:15px 0;
+}
+
+::-webkit-scrollbar {
+  width: 1px;
+  height: 1px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #a1a3a9;
+  border-radius: 3px;
+}
+
+.el-cascader-menu{
+  height: 200px;
+}
+
+.cancel{
+    background-color: rgb(187, 184, 184) !important;
+    color:#fff  !important;
+  }
+
+  .cancel:hover{
+    background-color: rgb(235, 128, 128) !important;
+    color:#fff  !important;
+    border-color:rgb(236, 119, 119) !important ;
+  }
+  .right{
+    background-color: rgb(109, 144, 209)  !important;
+    color:#fff  !important;
+  }
+  .right:hover{
+    background-color: rgb(55, 85, 141)  !important;
+    
+  }
+
+  .el-steps{
+    margin: 15px 0;  
+  }
+
+  .el-step__main .el-step__title{
+    font-size: 14px;
+  }
+  .el-step__main .el-step__title.is-wait{
+    color: #8a8a8a;
+  }
+
+  
+  .el-tab-pane .el-form-item__label{
+    color: rgba(10, 10, 10, 0.5);
+    text-shadow: 1px 2px 3px rgb(65, 65, 65);
+    font-weight: 700;
+  }
+   .el-checkbox-group .el-checkbox{
+    margin: 0 8px 0 0 !important;
+  }
+
+  .el-checkbox-group .el-checkbox__input.is-checked+.el-checkbox__label{
+    color: rgb(31, 29, 29) ;
+  }
+
+  .el-checkbox-group .el-checkbox.is-bordered.is-checked{
+    border-color: rgb(53, 52, 52) ;
+  }
+
+  .el-checkbox-group .el-checkbox__input.is-checked .el-checkbox__inner, .el-checkbox__input.is-indeterminate .el-checkbox__inner{
+    background-color: rgb(71, 71, 71);
+    border-color: rgb(59, 59, 59) ;
+  }
+
+  .el-tab-pane .el-form-item{
+    margin-bottom: 10px;
+  }
+
+  .el-form--label-top .el-form-item__label{
+    padding: 0 0 2px !important;
+  }
+
+  .ql-editor{
+    min-height: 100px;
+  }
+
+  #nprogress .bar {
+      background: rgb(231, 45, 20) !important; 
+  }
